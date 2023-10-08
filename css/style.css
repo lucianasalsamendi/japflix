@@ -1,0 +1,57 @@
+.img-card-fit {
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+}
+
+.img-cont {
+    height: 200px;
+    overflow: hidden;
+    background-color: beige;
+}
+
+.card-content{
+    height: 150px;
+    overflow: auto;
+}
+
+main {
+    min-height: calc(100vh - 100px);
+  }
+
+.checked{
+    color: orange;
+}
+
+.offcanvas-top{
+    height: fit-content;
+}
+#lista{
+    border: solid black 1px;
+    color:aliceblue;
+    list-style-type: none;
+}
+
+tr{
+    display: none;
+    color: aliceblue;
+    background-color: rgba(32,36,41,255);
+    border-bottom: 1px solid black;
+    height: 50px;
+    
+}
+spam{
+    color: rgb(132,153,132);
+    width: 100%;
+    font-size: small;
+}
+
+#votospan {
+    align-items: right;
+    justify-content: right;
+    text-align: right;
+}
+
+#tagcolor{
+    color: rgb(151, 151, 144);
+}
